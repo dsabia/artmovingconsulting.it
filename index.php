@@ -1,9 +1,19 @@
 <?php
 $lc = ""; 
 $mobile = false;
-if(isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])){
-    $lc = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+
+if (isset($_GET['lang'])) {
+	$lc = $_GET['lang'];
 }
+if($lc == "it" || $lc == "en" || $lc == "fr"){
+	
+}
+else {
+	if(isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])){
+		$lc = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+	}
+}
+
 if(stristr($_SERVER['HTTP_USER_AGENT'], "Mobile")){ 
 	$mobile = true;
 }
@@ -56,13 +66,13 @@ if($lc == "fr"){
 								<div id="header">
 										<br/>
 										<div style="width:100%;text-align:right; position: absolute;padding-right:30px;" class="mobile-hide">
-											<a href="index.html" class="image">
+											<a href="index.php?lang=it" class="image">
 												<img src="images/it.png" alt="it" />
 											</a>
-											<a href="index_en.html" class="image">
+											<a href="index.php?lang=en" class="image">
 												<img src="images/en.png" alt="en" />
 											</a>
-											<a href="index_fr.html" class="image">
+											<a href="index.php?lang=fr" class="image">
 												<img src="images/fr.png" alt="fr" />
 											</a>
 										</div>
@@ -433,13 +443,13 @@ if($lc == "fr"){
 								<div id="header">
 										<br/>
 										<div style="width:100%;text-align:right; position: absolute;padding-right:30px;" class="mobile-hide">
-											<a href="index.html" class="image">
+											<a href="index.php?lang=it" class="image">
 												<img src="images/it.png" alt="it" />
 											</a>
-											<a href="index_en.html" class="image">
+											<a href="index.php?lang=en" class="image">
 												<img src="images/en.png" alt="en" />
 											</a>
-											<a href="index_fr.html" class="image">
+											<a href="index.php?lang=fr" class="image">
 												<img src="images/fr.png" alt="fr" />
 											</a>
 										</div>
@@ -817,13 +827,13 @@ else{
 								<div id="header">
 										<br/>
 										<div style="width:100%;text-align:right; position: absolute;padding-right:30px;" class="mobile-hide">
-											<a href="index.html" class="image">
+											<a href="index.php?lang=it" class="image">
 												<img src="images/it.png" alt="it" />
 											</a>
-											<a href="index_en.html" class="image">
+											<a href="index.php?lang=en" class="image">
 												<img src="images/en.png" alt="en" />
 											</a>
-											<a href="index_fr.html" class="image">
+											<a href="index.php?lang=fr" class="image">
 												<img src="images/fr.png" alt="fr" />
 											</a>
 										</div>
