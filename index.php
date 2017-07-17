@@ -107,9 +107,9 @@ if($lc == "fr"){
 
 												<li>
 													<ul>
-														<li><a href="index.html">Italiano</a></li>
-														<li><a href="index_en.html">English</a></li>
-														<li><a href="index_fr.html">Français</a></li>
+														<li><a href="index.php?lang=it">Italiano</a></li>
+														<li><a href="index.php?lang=en">English</a></li>
+														<li><a href="index.php?lang=fr">Français</a></li>
 													</ul>
 												</li>
 											</ul>
@@ -483,9 +483,9 @@ if($lc == "fr"){
 												<li><a href="#titleContacts">CONTATTI</a></li>
 												<li>
 													<ul>
-														<li><a href="index.html">Italiano</a></li>
-														<li><a href="index_en.html">English</a></li>
-														<li><a href="index_fr.html">Français</a></li>
+														<li><a href="index.php?lang=it">Italiano</a></li>
+														<li><a href="index.php?lang=en">English</a></li>
+														<li><a href="index.php?lang=fr">Français</a></li>
 													</ul>
 												</li>
 											</ul>
@@ -868,9 +868,9 @@ else{
 
 												<li>
 													<ul>
-														<li><a href="index.html">Italiano</a></li>
-														<li><a href="index_en.html">English</a></li>
-														<li><a href="index_fr.html">Français</a></li>
+														<li><a href="index.php?lang=it">Italiano</a></li>
+														<li><a href="index.php?lang=en">English</a></li>
+														<li><a href="index.php?lang=fr">Français</a></li>
 													</ul>
 												</li>
 											</ul>
