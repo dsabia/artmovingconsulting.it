@@ -26,6 +26,7 @@ if(stristr($_SERVER['HTTP_USER_AGENT'], "Mobile")){
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="Art Moving Consulting - consulting service for Fine Art Moving" />
 		<meta name="keywords" content="Art Moving Consulting - consulting service for Fine Art Moving" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="icon" href="images/favicon.gif" type="image/gif" />
 		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900" rel="stylesheet" />
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
