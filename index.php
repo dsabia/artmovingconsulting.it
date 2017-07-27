@@ -5,7 +5,7 @@ $detect = new Mobile_Detect;
 
 // Check for mobile environment.
 if ($detect->isMobile()) {
-	header( 'Location: https://artmovingconsulting.herokuapp.com' );
+	//header( 'Location: https://artmovingconsulting.herokuapp.com' );
 }
 
 $lc = ""; 
